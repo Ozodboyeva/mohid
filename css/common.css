@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap"); /* Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap"); /*Inter*/
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+  --headerbackground: linear-gradient(#383638, #0b0b0b);
+  --cardbackground-color: #f6f6f6;
+  --buttonbackground-color: #3858d6;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohid</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!--header-->
+    <header>
+      <div class="container navbar">
+        <img src="./images/Logo (1).svg" alt="logo" />
+        <ul class="header__items">
+          <li class="header__item"><a href="#home">Home</a></li>
+          <li class="header__item dropdown">
+            <a href="#brand"
+              >Brands <i class="fa-sharp fa-solid fa-chevron-down"></i
+            ></a>
+            <ul class="dropdown-content">
+              <li class="dd-item"><a href="#" class="dd-link">Apple</a></li>
+              <li class="dd-item"><a href="#" class="dd-link">Xiaomi</a></li>
+              <li class="dd-item"><a href="#" class="dd-link">FitBit</a></li>
+            </ul>
+          </li>
+          <li class="header__item">
+            <a href="#recent-product">Recent Products</a>
+          </li>
+          <li class="header__item"><a href="#">Contact</a></li>
+          <li class="header__item"><a href="#">About</a></li>
+        </ul>
+        <div class="button">
+          <button id="dark-light">
+            <img class="img" src="images/dark.svg" alt="dark" />
+          </button>
+          <button class="hamburger" id="navbar-open">
+            <img class="img" src="images/Vector.svg" alt="Hamburger" />
+          </button>
+          <div class="header-images">
+            <img src="./images/Search.svg" alt="search" />
+            <img src="./images/Person.svg" alt="person" />
+            <img src="./images/Shopping Cart.svg" alt="shopping" />
+          </div>
+        </div>
+      </div>
+      <div id="navbar-responsive">
+        <ul class="res-header-list">
+          <li class="res-header-item">
+            <a href="#home" class="res-header-link active">Home</a>
+          </li>
+          <li class="res-header-item">
+            <a href="#brand" class="res-header-link">Brands</a>
+          </li>
+          <li class="res-header-item">
+            <a href="#resent-product" class="res-header-link"
+              >Recent Products</a
+            >
+          </li>
+          <li class="res-header-item">
+            <a href="#" class="res-header-link">Contact</a>
+          </li>
+
+          <li class="res-header-item">
+            <a href="#contact" class="res-header-link">About</a>
+          </li>
+        </ul>
+        <button id="navbar-close">
+          <img src="images/close.svg" alt="close" />
+        </button>
+      </div>
+    </header>
+    <!--header section done-->
+
+    <!--home part-->
+    <main id="home">
+      <div class="container home-watch">
+        <div class="home__texts">
+          <h3 class="home__subtitele">
+            Discover <br />
+            Most Suitable Watches
+          </h3>
+          <p class="home__text">
+            Find the best, reliable, and cheap smart watches here. We focus on
+            product quality. Here you can find smart watches of almost all
+            brands. So why you are waiting? Just order now!
+          </p>
+          <div class="search">
+            <span class="fa fa-search"></span>
+            <input placeholder=" &nbsp;Find the best brands" />
+            <button class="btn-search">Search</button>
+          </div>
+        </div>
+        <div class="watch">
+          <img src="./images/1008.png" alt="watch" />
+        </div>
+      </div>
+    </main>
+    <!--home section done-->
+    <!--brand section-->
+    <section id="brand">
+      <div class="container brand__items">
+        <div class="brand__item">
+          <img src="./images/ten.png" alt="ten" />
+          <div class="brand__texts">
+            <h3>Apple</h3>
+            <p>
+              Apple is one of the most famous smart watches providing company.
+            </p>
+          </div>
+        </div>
+        <div class="brand__item">
+          <img src="./images/1258.png" alt="ten" />
+          <div class="brand__texts">
+            <h3>Xiaomi</h3>
+            <p>Xiaomi smart watches are produced by MI company.</p>
+          </div>
+        </div>
+        <div class="brand__item">
+          <img src="./images/816.png" alt="ten" />
+          <div class="brand__texts">
+            <h3>FitBit</h3>
+            <p>
+              FitBit smart watches are best for there health and fitness
+              features.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--brand section done-->
+    <!--recsent product section-->
+    <section id="reacent-product">
+      <div class="container">
+        <h5 class="smart">Find your favourite smart watch.</h5>
+        <h4 class="latest">Our Latest Products</h4>
+        <div class="cards">
+          <div class="card">
+            <div class="card-img">
+              <img class="red" src="./images/red.png" alt="red" />
+              <div class="card-position">
+                <img
+                  class="little1"
+                  src="./images/Add To Cart.svg"
+                  alt="card"
+                />
+                <img class="little2" src="./images/Wish List.svg" alt="wish" />
+              </div>
+            </div>
+            <div class="card-text">
+              <h4>Apple Smart I</h4>
+              <div class="star">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+              </div>
+              <div class="center"><del>$300.00s</del><span>$255.00 </span></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img class="red" src="./images/grey.png" alt="red" />
+              <div class="card-position">
+                <img
+                  class="little1"
+                  src="./images/Add To Cart.svg"
+                  alt="card"
+                />
+                <img class="little2" src="./images/Wish List.svg" alt="wish" />
+              </div>
+            </div>
+            <div class="card-text">
+              <h4>Apple Smart III</h4>
+              <div class="star">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+              </div>
+              <div class="center"><del>$300.00s</del><span>$255.00 </span></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img class="red" src="./images/pink.png" alt="red" />
+              <div class="card-position">
+                <img
+                  class="little1"
+                  src="./images/Add To Cart.svg"
+                  alt="card"
+                />
+                <img class="little2" src="./images/Wish List.svg" alt="wish" />
+              </div>
+            </div>
+            <div class="card-text">
+              <h4>Apple Smart I</h4>
+              <div class="star">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+              </div>
+              <div class="center"><del>$300.00s</del><span>$255.00 </span></div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <div class="card-img">
+              <img class="red" src="./images/nosee.png" alt="red" />
+              <div class="card-position">
+                <img
+                  class="little1"
+                  src="./images/Add To Cart.svg"
+                  alt="card"
+                />
+                <img class="little2" src="./images/Wish List.svg" alt="wish" />
+              </div>
+            </div>
+            <div class="card-text">
+              <h4>Apple Smart IV</h4>
+              <div class="star">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+              </div>
+              <div class="center"><del>$450.00</del><span>$399.00 </span></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img class="red" src="./images/two (2).png" alt="red" />
+              <div class="card-position">
+                <img
+                  class="little1"
+                  src="./images/Add To Cart.svg"
+                  alt="card"
+                />
+                <img class="little2" src="./images/Wish List.svg" alt="wish" />
+              </div>
+            </div>
+            <div class="card-text">
+              <h4>Samsung Watch Pro</h4>
+              <div class="star">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+              </div>
+              <div class="center"><del>$300.00s</del><span>$255.00 </span></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img class="red" src="./images/8.png" alt="red" />
+              <div class="card-position">
+                <img
+                  class="little1"
+                  src="./images/Add To Cart.svg"
+                  alt="card"
+                />
+                <img class="little2" src="./images/Wish List.svg" alt="wish" />
+              </div>
+            </div>
+            <div class="card-text">
+              <h4>Fitbit Max 1</h4>
+              <div class="star">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+              </div>
+              <div class="center"><span>$155.00 </span></div>
+            </div>
+          </div>
+        </div>
+        <div class="div">
+          <button class="wiew" href="#">View More</button>
+        </div>
+      </div>
+    </section>
+    <!--recsent product section done-->
+    <!--contact section-->
+    <section id="contact">
+      <div class="container">
+        <h5 class="smart">Here are our some of the best clients.</h5>
+        <h4 class="latest">What People Say About Us</h4>
+        <div class="contact-cards">
+          <div class="contact-card">
+            <div class="card-items">
+              <img src="./images/cup.png" alt="cup" />
+              <div class="card-item">
+                <h5>Hamza Faizi</h5>
+                <p>
+                  Don’t waste time, just order! This is the best website to
+                  puschase smart watches.
+                </p>
+                <div class="stars">
+                  <i class="fa-sharp fa-solid fa-star"></i>
+                  <i class="fa-sharp fa-solid fa-star"></i>
+                  <i class="fa-sharp fa-solid fa-star"></i>
+                  <i class="fa-sharp fa-solid fa-star"></i>
+                  <i class="fa-sharp fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="card-items">
+              <img src="./images/glass.png" alt="cup" />
+              <div class="card-item">
+                <h5>Hafiz Huzaifa</h5>
+                <p>
+                  I’ve been purchasing smart watches of Mohid for a long time.
+                  All the products are good quality.
+                </p>
+                <div class="stars">
+                  <i class="fa-sharp fa-solid fa-star"></i>
+                  <i class="fa-sharp fa-solid fa-star"></i>
+                  <i class="fa-sharp fa-solid fa-star"></i>
+                  <i class="fa-sharp fa-solid fa-star"></i>
+                  <i class="fa-sharp fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--contact section done-->
+    <section id="about">
+      <div class="container">
+        <div class="about-part">
+          <div class="about-text">
+            <h2>Subscribe To Newsletter</h2>
+            <p>Get free guide about smart watches daily.</p>
+            <div class="subscribe">
+              <input type="text" placeholder="Enter Email Address" />
+              <button class="sub">Subscribe</button>
+            </div>
+          </div>
+          <img class="about-red" src="./images/red.png" alt="red" />
+        </div>
+      </div>
+    </section>
+    <!--footer-section-->
+    <footer>
+      <div class="container">
+        <p>Copyright @ 2022 | Mohid</p>
+      </div>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

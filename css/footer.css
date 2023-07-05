@@ -1,0 +1,14 @@
+footer {
+  width: 100%;
+  padding: 20px 0px 23px;
+  text-align: center;
+  background: #0b0b0b;
+}
+footer p {
+  color: #fff;
+  font-size: 16px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125.5%;
+}

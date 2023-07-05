@@ -1,0 +1,6 @@
+.dark * {
+  background-color: black;
+}
+.dark #header {
+  background-color: none;
+}
